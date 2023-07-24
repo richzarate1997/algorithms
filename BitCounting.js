@@ -6,7 +6,7 @@ function countBits(n) {
     return n.toString(2).split('1').length - 1;
 }
 
-// Test the function
+// Test
 console.log(countBits(1234));  // Outputs: 5
 console.log(countBits(0));  // Outputs: 0
 console.log(countBits(4));  // Outputs: 1
@@ -14,15 +14,3 @@ console.log(countBits(7));  // Outputs: 3
 console.log(countBits(9));  // Outputs: 2
 console.log(countBits(10));  // Outputs: 2
 
-
-// const { assert } = require("chai")
-
-// describe("Basic tests", () => {
-//     it("Testing for fixed tests", () => {
-//         assert.strictEqual(countBits(0), 0);
-//         assert.strictEqual(countBits(4), 1);
-//         assert.strictEqual(countBits(7), 3);
-//         assert.strictEqual(countBits(9), 2);
-//         assert.strictEqual(countBits(10), 2);
-//     })
-// })
